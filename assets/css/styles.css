@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Section */
+.section {
+    overflow: hidden;
+
+    margin: 0 600px;
+    background-color: #333;
+}
+
+/* Interface */
+.interface {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+}
+
+/* Character */
+#character {
+    width: 20px;
+    height: 90px;
+    background-color: #fa0000;
+    /* width: 90px;
+    height: 90px; */
+    margin-left: 30px;
+
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+/* Structure */
+.structure {
+    background-color: #0a87ee;
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    right: 0;
+}
+
+/* Score */
+.score {
+    width: 200px;
+    height: 60px;
+
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+}
+
+/* .character:hover {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {background-color: #fa0000;}
+    to { background-color: #0a87ee;}
+} */
